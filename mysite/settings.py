@@ -53,8 +53,8 @@ LOGIN_REDIRECT_URL = 'home'
 LOGOUT_URL = 'logout'
 LOGOUT_REDIRECT_URL = 'login'
 
-SOCIAL_AUTH_FACEBOOK_KEY = '554488135515634'       # App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = '7a6b29179c21fb3a1ad72331cb74d150'  # App Secret
+SOCIAL_AUTH_FACEBOOK_KEY = 'Your_App_ID'
+SOCIAL_AUTH_FACEBOOK_SECRET = 'Your_App_SecretKey'
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email', 'user_link']
 SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
   'fields': 'id, name, email, picture.type(large), link'
